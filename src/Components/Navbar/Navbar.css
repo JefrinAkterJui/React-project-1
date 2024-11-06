@@ -1,0 +1,34 @@
+.navbar{
+    @apply pt-[50px] hidden lg:block
+}
+.manu_row .manu_logo{
+    @apply w-[149px] inline-block
+}
+.manu_row{
+    @apply flex  justify-between
+}
+.manu_row .main_manu_row ul {
+    @apply flex gap-[40px]
+}
+.main_manu_row ul li a{
+   @apply text-[16px] font-normal font-rubik text-[#4F5665]
+}
+/* ---------------buttons----------------- */
+.Manu_button{
+    @apply flex gap-4
+}
+.Manu_button a{
+    @apply text-[16px] font-medium font-rubik  py-[13px] px-[45px] rounded-[50px] border-[1px] inline-block
+}
+.button2{
+    @apply border-[1px] border-[#F53855] text-[#F53855]  transition duration-200
+}
+.button2:hover{
+    @apply text-[#0B132A] border-transparent 
+}
+.button1{
+    @apply border-transparent transition duration-200
+}
+.button1:hover{
+    @apply border-[#F53855] text-[#F53855]
+}

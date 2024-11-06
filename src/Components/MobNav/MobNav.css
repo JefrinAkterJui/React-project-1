@@ -1,0 +1,19 @@
+.resNav{
+    @apply lg:hidden 
+}
+.res_manu{
+    @apply py-4 flex justify-between
+}
+.res_m_logo img{
+    @apply w-[100px]
+}
+.res_manu .manu_icon{
+    @apply p-2 border-[1px] rounded-md text-[16px]
+}
+/* --------------------------------------ul style-------- */
+.res_manu_row li a{
+    @apply w-full font-rubik text-[#4F5665] bg-transparent ml-4 text-[16px]
+}
+.res_manu_row li a:hover{
+    @apply font-rubik text-[20px] text-black
+}
