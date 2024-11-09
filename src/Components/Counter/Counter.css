@@ -1,0 +1,34 @@
+.jui_Counter{
+    @apply w-full bg-white px-[90px] py-[37px] shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px]
+}
+.Counter{
+    @apply lg:mt-[101px] 
+}
+.single_counter{
+    @apply flex  items-center gap-[36px]
+}
+.Counter_icon{
+    @apply w-[55px] h-[55px] bg-[#FFECEC] text-[#F53838] rounded-full flex justify-center items-center
+}
+.count{
+    @apply font-rubik font-bold text-[25px]
+}
+.count_div p{
+    @apply font-rubik font-bold text-[20px] text-center text-[#000000] mt-[5px]
+}
+.count_div{
+    @apply flex
+}
+.single_counter h6{
+    @apply font-rubik font-normal text-[20px] text-center text-[#4F5665] mt-[5px]
+
+}
+.counter_line{
+    @apply lg:w-[2px] lg:h-[125px] lg:bg-[#EEEFF2]
+}
+.main_counter{
+    @apply flex lg:gap-[130px] mt-[10px]
+}
+.jui_Counter{
+    @apply flex lg:justify-between flex-wrap justify-center items-center
+}

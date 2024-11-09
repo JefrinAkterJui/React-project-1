@@ -1,8 +1,17 @@
 import React from 'react'
+import Banner from '../Components/Banner/Banner'
+import Counter from '../Components/Counter/Counter'
+import Provide from '../Components/Provide/Provide'
+import Plan from '../Components/Plan/Plan'
 
 const Home = () => {
   return (
-    <div></div>
+    <>
+    <Banner/>
+    <Counter/>
+    <Provide/>
+    <Plan/>
+    </>
   )
 }
 

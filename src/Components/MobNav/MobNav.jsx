@@ -19,11 +19,11 @@ const MobNav = () => {
             show ?
 
           <ul className='res_manu_row'>
-            <li><Link to={''}>About</Link></li>
-            <li><Link to={''}>Features</Link></li>
-            <li><Link to={''}>Pricing</Link></li>
-            <li><Link to={''}>Testimonials</Link></li>
-            <li><Link to={''}>Help</Link></li>
+            <li><Link to={'/'}>About</Link></li>
+            <li><Link to={'/'}>Features</Link></li>
+            <li><Link to={'/'}>Pricing</Link></li>
+            <li><Link to={'/'}>Testimonials</Link></li>
+            <li><Link to={'/'}>Help</Link></li>
           </ul>
             :
             ''
