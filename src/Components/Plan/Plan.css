@@ -12,10 +12,14 @@
 }
 /* ---------------plan card-------------- */
 .main_plan_cards{
-    @apply md:flex  md:justify-center items-center flex-wrap
+    @apply md:flex  md:justify-center items-center flex-wrap 
 }
+
 .plan_card{
-    @apply md:w-[330px] w-[300px] md:h-[760px] h-[700px] bg-[#fff] rounded-[10px] mt-[60px] flex justify-center items-center flex-col
+    @apply duration-300 md:w-[330px] w-[300px] md:h-[760px] h-[700px] bg-[#fff] rounded-[10px] mt-[60px] flex justify-center items-center flex-col
+}
+.plan_card:hover{
+     @apply border-[2px] border-[#F53838]
 }
 .plan_img img{
     @apply md:mt-[79px] mt-[10px]
@@ -30,10 +34,10 @@
     @apply text-[#2FAB73] 
 }
 .free_text p{
-    @apply font-rubik font-normal text-[14px] text-[#4F5665]
+    @apply font-rubik font-normal text-[14px] text-[#4F5665] w-[150px]
 }
 .free_text{
-    @apply flex gap-[20px] mt-[10px]
+    @apply flex gap-[20px] mt-[10px] justify-between
 }
 .free_card_text{
     @apply flex justify-center items-center  flex-col mt-[30px]

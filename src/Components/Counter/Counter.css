@@ -20,7 +20,7 @@
     @apply flex
 }
 .single_counter h6{
-    @apply font-rubik font-normal text-[20px] text-center text-[#4F5665] mt-[5px]
+    @apply font-rubik font-normal text-[20px] text-center text-[#4F5665] mt-[5px] w-[40px]
 
 }
 .counter_line{

@@ -1,0 +1,144 @@
+.Network{
+    @apply mt-[150px]
+}
+/* --------------net text  css----------- */
+.Network_text{
+    @apply flex flex-col justify-center items-center
+}
+.Network_text h1{
+    @apply font-rubik font-medium md:text-[35px] mt-[-109px] md:mt-10 text-[23px] md:w-[383px] text-center text-[#0B132A]
+}
+.Network_text p{
+    @apply font-rubik font-normal text-[16px] md:w-[555px] text-[#4F5665] text-center md:mt-[20px] mt-[4px]
+}
+/* ----------------network imge and animation------------- */
+.Network_imge{
+    @apply md:mt-[155px] mt-[18px] flex justify-center overflow-hidden
+}
+.Network_imge .map_img{
+    animation: animat linear infinite .9s; 
+}
+@keyframes animat{
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+.points{
+    @apply md:top-[432px] md:right-[209px] md:w-[19px] top-[21px] right-[20px] w-[16px]
+}
+.points1{
+    @apply md:top-[395px] md:right-[257px] md:w-[35px] top-[37px] right-[40px] w-[24px]
+}
+.points2{
+    @apply md:top-[359px] md:right-[300px] md:w-[20px] top-[20px] right-[60px] w-[13px]
+}
+.points3{
+    @apply md:top-[258px] md:right-[404px] md:w-[35px] top-[70px] right-[74px] w-[27px]
+}
+.points4{
+    @apply md:top-[222px] md:right-[341px] md:w-[19px] top-[35px] right-[91px] w-[15px]
+}
+.points5{
+    @apply md:top-[138px] md:right-[350px] md:w-[43px] top-[20px] right-[100px] w-[30px]
+}
+.points6{
+    @apply md:top-[211px] md:right-[227px] md:w-[26px] top-[40px] right-[62px] w-[35px]
+}
+.points7{
+    @apply md:top-[108px] md:right-[258px] md:w-[25px] top-[64px] right-[126px] w-[21px]
+}
+.points8{
+    @apply md:top-[113px] md:right-[156px] md:w-[17px] top-[98px] right-[122px] w-[16px]
+}
+.points9{
+    @apply md:top-[158px] md:right-[436px] md:w-[33px] top-[110px] right-[26px] w-[12px]
+}
+.points10{
+    @apply md:top-[51px] md:right-[331px] md:w-[15px] top-[104px] right-[40px] w-[19px]
+}
+.points11{
+    @apply md:top-[78px] md:right-[402px] md:w-[20px] top-[30px] right-[200px] w-[20px]
+}
+.points12{
+    @apply md:top-[73px] md:right-[118px] md:w-[30px] top-[48px] right-[210px] w-[29px]
+}
+.points13{
+    @apply md:top-[271px] md:right-[534px] md:w-[43px] top-[30px] right-[230px] w-[16px]
+}
+.points14{
+    @apply md:top-[364px] md:right-[562px] md:w-[33px] top-[17px] right-[268px] w-[22px]
+}
+.points15{
+    @apply md:top-[270px] md:right-[664px] md:w-[25px] top-[3px] right-[175px] w-[23px]
+}
+.points16{
+    @apply md:top-[111px] md:right-[529px] md:w-[34px] top-[82px] right-[190px] w-[25px]
+}
+.points17{
+    @apply md:top-[91px] md:right-[598px]  md:w-[25px] top-[112px] right-[190px] w-[14px]
+}
+.points18{
+    @apply md:top-[14px] md:right-[714px]  md:w-[21px]  hidden sm:block
+}
+.points19{
+    @apply md:top-[26px] md:right-[761px]  md:w-[26px] hidden sm:block
+}
+.points20{
+    @apply md:top-[89px] md:right-[779px]  md:w-[15px] hidden sm:block
+}
+.points21{
+    @apply md:top-[1px] md:right-[860px] md:w-[19px] hidden sm:block
+}
+.points22{
+    @apply md:top-[80px] md:right-[840px]  md:w-[25px] hidden sm:block
+}
+.points23{
+    @apply md:top-[100px] md:right-[922px] md:w-[25px] hidden sm:block
+}
+.points24{
+    @apply md:top-[73px] md:right-[1000px] md:w-[25px] hidden sm:block
+}
+.points25{
+    @apply md:top-[73px] md:right-[1000px] md:w-[25px] hidden sm:block
+}
+.points26{
+    @apply md:top-[145px] md:right-[955px] md:w-[40px] hidden sm:block
+}
+.points27{
+    @apply md:top-[96px] md:right-[1106px] md:w-[22px] hidden sm:block
+}
+.points28{
+    @apply md:top-[109px] md:right-[1026px] md:w-[15px] hidden sm:block
+}
+.points29{
+    @apply md:top-[213px] md:right-[973px] md:w-[27px] hidden sm:block
+}
+.points30{
+    @apply md:top-[250px] md:right-[941px] md:w-[20px] hidden sm:block
+}
+.points31{
+    @apply md:top-[191px] md:right-[914px] md:w-[27px] hidden sm:block
+}
+.points32{
+    @apply md:top-[339px] md:right-[812px] md:w-[42px] hidden sm:block
+}
+.points33{
+    @apply md:top-[419px] md:right-[844px] md:w-[20px] hidden sm:block
+}
+.points34{
+    @apply md:top-[387px] md:right-[769px] md:w-[27px] hidden sm:block
+}
+.points35{
+    @apply md:top-[490px] md:right-[845px] md:w-[20px] hidden sm:block
+}
+
+/* }---------------------------------- */
+.brand{
+    @apply flex justify-between w-full py-4 items-center
+}

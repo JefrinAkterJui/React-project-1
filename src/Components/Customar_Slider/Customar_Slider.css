@@ -1,0 +1,93 @@
+.Customar_Slider{
+    @apply py-[57px]
+}
+.Slider_text{
+    @apply flex flex-col justify-center items-center
+}
+.Slider_text h1{
+    @apply font-rubik font-medium md:text-[35px] text-[20px] text-[#0B132A] md:w-[447px] text-center items-center flex justify-center
+    
+}
+.Slider_text p{
+    @apply font-rubik font-normal text-[16px] text-[#4F5665] mt-[20px] md:w-[555px] w-[300px] text-center
+}
+.main_slider{
+    @apply mt-[60px] 
+}
+/* ---------------------slider--------------- */
+.Slide_1{
+    @apply px-[25px] py-[30px] border-[1px] border-[#DDDDDD] bg-[#fff]
+    rounded-[10px] duration-700 
+}
+
+.Slide_1:hover{
+    @apply border-[#F53838] 
+}
+/* ------------------------- */
+.slide{
+    @apply flex gap-[20px]
+}
+.slide_text .text h2{
+    @apply font-rubik font-medium text-[18px] text-[#0B132A]
+}
+.slide_text .text p{
+    @apply font-rubik font-normal text-[14px] text-[#4F5665] mt-[-2px]
+   
+}
+.slide_text{
+    @apply flex gap-[108px]
+}
+.SONE{
+    @apply gap-[78px]
+}
+.SONE2{
+    @apply gap-[58px]
+}
+.ss h3{
+    @apply font-rubik font-normal text-[16px] text-[#0B132A] w-[24px]
+}
+.ss{
+    @apply flex gap-[10px] items-center justify-center text-center
+}
+
+.icon{
+    @apply text-[#FEA250] mt-[-1px]
+}
+.comments p{
+    @apply w-[340px] font-rubik font-normal text-[16px] 
+    text-[#0B132A] mt-[20px]
+}
+.one{
+    @apply mb-[47px]
+}
+.tow{
+    @apply mb-[24px]
+}
+.text_one{
+    @apply w-[142px]
+}
+.maine{
+    @apply flex gap-[50px] 
+}
+/* ----------------------------------- */
+.slick-dots li button{
+    @apply text-[0] w-[15px] h-[15px] bg-[#DDE0E4] rounded-full
+}
+.slick-dots{
+    @apply !flex justify-start gap-[15px] mt-[50px]
+}
+.slick-dots .slick-active  button{
+    @apply bg-[#F53838] duration-200
+}
+.mySlider{
+    @apply relative
+}
+.slick-arrow{
+    @apply text-[60px] text-[#F53838] absolute top-[50%] z-20 
+}
+.slick-prev{
+    @apply right-10 top-[279px]
+}
+.slick-next{
+    @apply top-[279px] right-[113px]
+}
